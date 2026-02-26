@@ -14,22 +14,22 @@ cask "elevencli" do
   on_macos do
     on_intel do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_darwin_amd64.tar.gz"
-      sha256 "419a3dec4258ead5ca6fb7177495e00a60796749d4cd50a402d505dcb8dba5bb"
+      sha256 "887e9985617a37a93ce5f053fb4e94e1dfcb2efd5ee890cb5aaaa46bc07833ed"
     end
     on_arm do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_darwin_arm64.tar.gz"
-      sha256 "c80f3173ced55ddc66b6d7a0d2c707b9b4e7f62cdedf35ef0fe486f415933ae7"
+      sha256 "ca7d88ad32d0c22043ae3a66174c33eedacb3b08bb66886ee7064e55cf39e1ca"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_linux_amd64.tar.gz"
-      sha256 "714bec7096184176c3d2072ff14fbce909d7fb498bddb47a725bd7c759d0507a"
+      sha256 "8a88087624f80428d5a37f7f9570ed1a08cdd4c191727c4200ffb1b9ee81303f"
     end
     on_arm do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_linux_arm64.tar.gz"
-      sha256 "d9b440d3c1d17d33b15b25752903dae1e942fb50c45b0f08d3609f1725d6ca34"
+      sha256 "040626baf9e5aae410eee659a4ffa511b6a5ef09abc792ca433ac4c8aaf0469c"
     end
   end
 
