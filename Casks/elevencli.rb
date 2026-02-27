@@ -3,7 +3,7 @@ cask "elevencli" do
   name "elevencli"
   desc "ElevenLabs CLI — text-to-speech and sound effects from the command line"
   homepage "https://github.com/deegital/elevencli"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "elevencli" do
   on_macos do
     on_intel do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_darwin_amd64.tar.gz"
-      sha256 "887e9985617a37a93ce5f053fb4e94e1dfcb2efd5ee890cb5aaaa46bc07833ed"
+      sha256 "43ad50e53212bcc7f7b6fd1f41a95d72493be1398ed90dc03a3f28c4a4e677b2"
     end
     on_arm do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_darwin_arm64.tar.gz"
-      sha256 "ca7d88ad32d0c22043ae3a66174c33eedacb3b08bb66886ee7064e55cf39e1ca"
+      sha256 "2f901f1d02d1dc51b445320f240a50e6cc375d94c77c6a857711bb9d5510bd68"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_linux_amd64.tar.gz"
-      sha256 "8a88087624f80428d5a37f7f9570ed1a08cdd4c191727c4200ffb1b9ee81303f"
+      sha256 "b65b3f3c8bbeb9f0b0805b5662e93da160b34c96840503894352e06f32cb1841"
     end
     on_arm do
       url "https://github.com/deegital/elevencli/releases/download/v#{version}/elevencli_#{version}_linux_arm64.tar.gz"
-      sha256 "040626baf9e5aae410eee659a4ffa511b6a5ef09abc792ca433ac4c8aaf0469c"
+      sha256 "1a2dba81c383a42a418dcb19c0946c28b0f0827ff827d36432b27b6d568f5dbf"
     end
   end
 
